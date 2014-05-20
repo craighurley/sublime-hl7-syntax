@@ -9,13 +9,12 @@ Sublime Text syntax highlighting for HL7 content.
 Sublime Text 2:
 
     git clone https://github.com/craighurley/sublime-hl7-syntax.git \
-    ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/sublime-hl7-syntax
+    ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/sublime-hl7-syntax
 
 Sublime Text 3:
 
     git clone https://github.com/craighurley/sublime-hl7-syntax.git \
-    ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/sublime-hl7-syntax
-
+    ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/sublime-hl7-syntax
 
 ## Usage
 
@@ -23,7 +22,6 @@ File types ending in .edi or .hl7 should automatically have syntax highlighting 
 - Linux: <kbd>super+shift+p</kbd>, then type <kbd>ss hl7</kbd>
 - Windows: <kbd>super+shift+p</kbd>, then type <kbd>ss hl7</kbd>
 - OS X: <kbd>command+shift+p</kbd>, then type <kbd>ss hl7</kbd>
-
 
 ## Info
 
