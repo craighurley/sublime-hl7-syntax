@@ -18,9 +18,9 @@ Sublime Text 3:
 
 ## Usage
 File types ending in .edi or .hl7 should automatically have syntax highlighting applied, if not use the following commands:
-- Linux: <kbd>super+shift+p</kbd>, then <kbd>sshl7</kbd> to *s*et *s*yntax to *HL7*.
-- Windows: <kbd>super+shift+p</kbd>, then <kbd>sshl7</kbd> to *s*et *s*yntax to *HL7*.
-- OS X: <kbd>command+shift+p</kbd>, then <kbd>sshl7</kbd> to *s*et *s*yntax to *HL7*.
+- Linux: <kbd>super+shift+p</kbd>, then type <kbd>ss hl7</kbd> to **s**et **s**yntax to **HL7**.
+- Windows: <kbd>super+shift+p</kbd>, then type <kbd>ss hl7</kbd> to set syntax to HL7.
+- OS X: <kbd>command+shift+p</kbd>, then type <kbd>ss hl7</kbd> to set syntax to HL7.
 
 ## Info
 
