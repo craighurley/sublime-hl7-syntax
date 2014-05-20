@@ -13,18 +13,6 @@
     <array>
         <dict>
             <key>match</key>
-            <string>\|</string>
-            <key>name</key>
-            <string>constant.character.hl7</string>
-        </dict>
-        <dict>
-            <key>match</key>
-            <string>(\^|&|~)</string>
-            <key>name</key>
-            <string>string.other.hl7</string>
-        </dict>
-        <dict>
-            <key>match</key>
             <string>^(.*?)(\|)</string>
             <key>captures</key>
             <dict>
@@ -42,20 +30,51 @@
         </dict>
         <dict>
             <key>match</key>
-            <string>((ADT|ORU|ORM).*?)(\|)</string>
-            <key>captures</key>
+            <string>(\^|&|~)</string>
+            <key>name</key>
+            <string>string.other.hl7</string>
+        </dict>
+        <dict>
+            <key>begin</key>
+            <string>(\|)(ADT|ORU|ORM)</string>
+            <key>beginCaptures</key>
             <dict>
                 <key>1</key>
                 <dict>
                     <key>name</key>
-                    <string>support.function.hl7</string>
+                    <string>constant.character.hl7test</string>
                 </dict>
-                <key>3</key>
+                <key>2</key>
                 <dict>
                     <key>name</key>
-                    <string>constant.character.hl7</string>
+                    <string>support.function.hl7test</string>
                 </dict>
             </dict>
+            <key>end</key>
+            <string>(\|)</string>
+            <key>name</key>
+            <string>constant.character.hl7test</string>
+            <key>patterns</key>
+            <array>
+                <dict>
+                    <key>captures</key>
+                    <dict>
+                        <key>1</key>
+                        <dict>
+                            <key>name</key>
+                            <string>support.function.hl7test</string>
+                        </dict>
+                    </dict>
+                    <key>match</key>
+                    <string>(.*?)</string>
+                </dict>
+            </array>
+        </dict>
+        <dict>
+            <key>match</key>
+            <string>\|</string>
+            <key>name</key>
+            <string>constant.character.hl7test</string>
         </dict>
     </array>
     <key>scopeName</key>
