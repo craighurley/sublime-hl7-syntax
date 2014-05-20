@@ -42,18 +42,18 @@
                 <key>1</key>
                 <dict>
                     <key>name</key>
-                    <string>constant.character.hl7test</string>
+                    <string>constant.character.hl7</string>
                 </dict>
                 <key>2</key>
                 <dict>
                     <key>name</key>
-                    <string>support.function.hl7test</string>
+                    <string>support.function.hl7</string>
                 </dict>
             </dict>
             <key>end</key>
             <string>(\|)</string>
             <key>name</key>
-            <string>constant.character.hl7test</string>
+            <string>constant.character.hl7</string>
             <key>patterns</key>
             <array>
                 <dict>
@@ -62,7 +62,7 @@
                         <key>1</key>
                         <dict>
                             <key>name</key>
-                            <string>support.function.hl7test</string>
+                            <string>support.function.hl7</string>
                         </dict>
                     </dict>
                     <key>match</key>
@@ -74,7 +74,7 @@
             <key>match</key>
             <string>\|</string>
             <key>name</key>
-            <string>constant.character.hl7test</string>
+            <string>constant.character.hl7</string>
         </dict>
     </array>
     <key>scopeName</key>
