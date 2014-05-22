@@ -3,7 +3,7 @@ sublime-hl7-syntax
 
 Sublime Text syntax highlighting for HL7 content.
 
-!(hl7.png)
+![hl7.png](hl7.png)
 
 ## Installation
 ### git
