@@ -36,7 +36,7 @@
         </dict>
         <dict>
             <key>begin</key>
-            <string>(\|)(ADT|MFN|PPR|ORU|ORM|REF|ACK)</string>
+            <string>(\|)(ADT|MFN|PPR|ORU|ORM|REF|SIU|ACK)</string>
             <key>beginCaptures</key>
             <dict>
                 <key>1</key>
